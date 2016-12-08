@@ -1,15 +1,19 @@
 {
   "name": "express-knex-crud-example",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "An example using Express and knex to crud a json API",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mairin Bailey",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "pg": "^6.1.0"
   }
 }
